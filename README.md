@@ -2,7 +2,7 @@
 
 ## Summary
 
-Small library to interact with the EQOweb API of the QBus CTD 01E, CTD 02E or CTD 03E controller. More information about this home automation system is available on the (QBus home page)[http://www.qbus.be/en/home].
+Small library to interact with the EQOweb API of the QBus CTD 01E, CTD 02E or CTD 03E controller. More information about this home automation system is available on the [QBus home page](http://www.qbus.be/en/home).
 
 ## Features
 Supports basic interactions with EQOweb API,
