@@ -1,0 +1,32 @@
+{
+  "name": "qbus-eqoweb-api",
+  "version": "1.0.1",
+  "description": "JS API to interact with QBUS EQOweb controller",
+  "main": "index.js",
+  "keywords": [
+    "QBUS",
+    "EQOweb",
+    "api"
+  ],
+  "author": {
+    "name": "Nico Janssens",
+    "email": "nico.b.janssens@gmail.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.9.0"
+  },
+  "dependencies": {
+    "axios": "0.16.2",
+    "dotenv": "^4.0.0",
+    "q": "^1.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-config-google": "^0.8.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^5.0.1",
+    "eslint-plugin-react": "^7.0.1"
+  }
+}
