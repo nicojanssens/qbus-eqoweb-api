@@ -1,6 +1,6 @@
 require('dotenv').config();
 
-const constants = require('./Constants');
+const constants = require('./TestConstants');
 const EventListener = require('../index').EventListener;
 
 const testArgs = {

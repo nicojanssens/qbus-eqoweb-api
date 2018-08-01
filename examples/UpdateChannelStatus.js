@@ -1,6 +1,6 @@
 require('dotenv').config();
 
-const constants = require('./Constants');
+const constants = require('./TestConstants');
 const connectP = require('../index').connectP;
 const updateChannelStatusP = require('../index').updateChannelStatusP;
 

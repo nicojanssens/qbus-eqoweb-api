@@ -173,5 +173,9 @@ Return value:
 }
 ```
 
+### Configuration ###
+
+You can define the max qbus polling delay via env variable ```MAX_POLLING_DELAY_MS``` (default = 2000ms) and the timeout to abort a qbus request using env variable ```HTTP_TIMEOUT_MS``` (default = 500ms).
+
 ## Examples
 See examples directory. First copy over the `.env.example` configuration and adapt it. Then run the scripts to test communication with your QBus controller.

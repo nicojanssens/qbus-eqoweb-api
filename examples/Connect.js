@@ -1,4 +1,4 @@
-const constants = require('./Constants');
+const constants = require('./TestConstants');
 const connectP = require('../index').connectP;
 
 const testArgs = {
