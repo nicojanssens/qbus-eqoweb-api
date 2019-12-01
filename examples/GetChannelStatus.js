@@ -1,8 +1,10 @@
 require('dotenv').config();
 
 const constants = require('./TestConstants');
-const connectP = require('../index').connectP;
-const getChannelStatusP = require('../index').getChannelStatusP;
+const {
+  connectP,
+  getChannelStatusP,
+} = require('../index');
 
 const testArgs = {
   username: constants.EQOWEB_USERNAME,

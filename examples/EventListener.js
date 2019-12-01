@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 const constants = require('./TestConstants');
-const EventListener = require('../index').EventListener;
+const { EventListener } = require('../index');
 
 const testArgs = {
   username: constants.EQOWEB_USERNAME,

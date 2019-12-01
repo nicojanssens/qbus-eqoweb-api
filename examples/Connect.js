@@ -1,5 +1,5 @@
 const constants = require('./TestConstants');
-const connectP = require('../index').connectP;
+const { connectP } = require('../index');
 
 const testArgs = {
   username: constants.EQOWEB_USERNAME,
