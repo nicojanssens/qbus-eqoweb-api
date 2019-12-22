@@ -14,4 +14,7 @@ const listener = new EventListener(testArgs);
 listener.on('update', (update) => {
   console.log(update);
 });
+listener.on('error', (error) => {
+  console.log(`Woops ... ${error}`);
+});
 listener.activate();
