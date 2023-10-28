@@ -179,3 +179,7 @@ You can define the max qbus polling delay via env variable ```MAX_POLLING_DELAY_
 
 ## Examples
 See examples directory. First copy over the `.env.example` configuration and adapt it. Then run the scripts to test communication with your QBus controller.
+
+## Remarks
+:warning: This library is **not** officially supported by Qbus.
+
